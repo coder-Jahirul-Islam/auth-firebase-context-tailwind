@@ -13,8 +13,8 @@ const Login = () => {
     return (
         <>
             <div className="hero min-h-screen bg-base-200">
-                <div className="hero-content flex-col lg:flex-row-reverse">
-                    <div className="text-center lg:text-left">
+                <div className="hero-content flex-col">
+                    <div className="text-center">
                         <h1 className="text-5xl font-bold"> Please Login !</h1>
                     </div>
                     <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
@@ -39,9 +39,10 @@ const Login = () => {
                                 <button className="btn btn-primary">Login</button>
                             </div>
                         </form>
-                        <Link to='/register' className="btn btn-link">
-                            <button className='btn btn-link'>New to AuthMaster?</button>
-                        </Link>
+
+                        <p className="ml-8 mb-4">
+                            <Link to='/register' className="label-text-alt link link-hover">New to AuthMaster? Please Register</Link>
+                        </p>
 
                     </div>
                 </div>
