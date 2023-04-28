@@ -18,3 +18,10 @@
  * 2. auth provider will have auth and pass email and password from register
  * 3.
  * **/ 
+
+
+
+/**
+ * 1.private route
+ * 
+ * **/ 
